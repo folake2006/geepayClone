@@ -1,0 +1,335 @@
+/* default settings  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+nav{
+    background: black;
+    color: white;
+}
+
+.hh{
+    border: 2px solid tomato;
+    min-height: 80px;
+}
+.bb{
+    border: 2px solid blue;
+    height: 80px;
+}
+.vv{
+    border: 2px solid yellow;
+    height: 40px;
+}
+.yy{
+    border: 2px solid green;
+    height: 40px;
+}
+.general{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left img{
+    height: 30px;
+    width: 100px;
+}
+.help{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.general a h3{
+    color: white;
+}
+
+.right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.btnLogin{
+    font-size: 22px;
+    padding: 10px 20px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+}
+.globalBanking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    background: black;
+    color: white;
+    padding-bottom: 10px;
+}
+.globalBanking h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.globalBanking  p{
+      font-size: 18PX;
+}
+.googlecon{
+    padding-top: 71px;
+    padding-bottom: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background:black;
+}
+.googlecon img{
+    height: 66px;
+    width: 170px;
+}
+.amazingcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: black;
+}
+.amazing{
+    background: #ffe5d9;
+    color: rgb(255, 118, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+    transform: rotate(17deg);
+}
+.fast{
+    background: #caf0f8;
+    color: rgb(7, 140, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+}
+.super{
+    background: #ffe5d9;
+    color: rgb(255, 118, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+    transform: rotate(80deg);
+}
+.mind{
+    background: rgb(255, 118, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+
+}
+.awesomecon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: black;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.no {
+    background: #f77f00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+    transform: 30deg;
+}
+.awesome {
+    background: rgb(255, 118, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+    transform: rotate(-30deg);
+}
+.perfect {
+    background: #caf0f8;
+    color: rgb(7, 140, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+}
+.reliable{
+    background: #fefae0;
+    color: #f77f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 60px;
+    border-radius: 60px;
+}
+
+.robo{
+    width: 80%;
+    margin: auto;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.robo img{
+    height: 60px;
+    width: 60px;
+}
+.trusted{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.create{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.solutionCon{
+    color: #8a95ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    gap: 15px;
+
+}
+
+/* mobile view satrts here  */
+.mobileNav{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.mobileLogo{
+    height: 30px;
+    width: 100px;
+}
+.hambuger{
+    /* border: 2px solid tomato; */
+    /* height: 50px;
+    width: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    z-index: 1;
+}
+
+.hambuger div{
+    height: 5px;
+    width: 40px;
+    background: white;
+    display: block;
+}
+.close{
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+/* 111111111111111111111111111111111111 */
+
+
+/* When the hamburger is clicked, hide the hamburger bars and show the close icon */
+/* hide hambuger  */
+.hambuger.showClose div {
+    display: none;
+}
+
+
+
+/* When the hamburger is clicked, the close icon will be shown */
+/* show close  */
+.hambuger.showClose .close {
+    display: block;
+    font-size: 50px;
+}
+
+
+
+
+.mobileLinkHolder{
+    background: green;
+    position: fixed;
+    right: 180px;
+    top: 0;
+    height: 100vh;
+    width: 50%;
+    padding: 80px 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transform: translateX(200%);
+    transition: all 1s;
+}
+.showmobileLinkHolder{
+    transform: translateX(0);
+}
+.image{
+    min-height:30px ;
+    /* border: 2px solid red; */
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    padding: 30px 40px;
+    margin-bottom: -40px;
+}
+.image img{
+    height: 120px;
+}
+.robot{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.robot img{
+    height: 60px;
+    width: 60px;
+}

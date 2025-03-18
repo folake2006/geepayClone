@@ -1,0 +1,18 @@
+@media screen and (max-width:830px) {
+    .mobileNav{
+        display: flex;
+    }
+    .desktopNav{
+        display: none;
+    }
+    .globalBanking h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .amazingcon{
+        display: none;
+    }
+    .awesomecon{
+        display: none;
+    }
+}
