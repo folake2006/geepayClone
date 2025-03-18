@@ -15,4 +15,7 @@
     .awesomecon{
         display: none;
     }
+    body{
+    width: fit-content;
+    }
 }

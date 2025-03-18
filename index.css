@@ -7,7 +7,9 @@
 }
 
 body{
+    /* width: fit-content; */
     width: 100%;
+    /* border: 2px solid tomato; */
 }
 nav{
     background: black;
@@ -79,6 +81,7 @@ nav{
     background: black;
     color: white;
     padding-bottom: 10px;
+    /* border: 2px solid tomato; */
 }
 .globalBanking h1{
     font-size: 60px;
@@ -293,7 +296,7 @@ nav{
 .mobileLinkHolder{
     background: green;
     position: fixed;
-    right: 180px;
+    right: 0;
     top: 0;
     height: 100vh;
     width: 50%;
